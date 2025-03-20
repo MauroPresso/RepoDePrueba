@@ -1,0 +1,51 @@
+\doxysection{fibonacci.\+py File Reference}
+\hypertarget{fibonacci_8py}{}\label{fibonacci_8py}\index{fibonacci.py@{fibonacci.py}}
+
+
+Este archivo contiene una implementación recursiva de la secuencia de Fibonacci.  
+
+
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{fibonacci_8py_a5debf8a693c4140ce56aa04d4c7e8176}{fibonacci.\+fibonacci}} (n)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{fibonacci_8py_ac0dd1e3485b235bc416a256111928ef9}\label{fibonacci_8py_ac0dd1e3485b235bc416a256111928ef9} 
+{\bfseries fibonacci.\+end}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Este archivo contiene una implementación recursiva de la secuencia de Fibonacci. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{fibonacci_8py_a5debf8a693c4140ce56aa04d4c7e8176}\index{fibonacci.py@{fibonacci.py}!fibonacci@{fibonacci}}
+\index{fibonacci@{fibonacci}!fibonacci.py@{fibonacci.py}}
+\doxysubsubsection{\texorpdfstring{fibonacci()}{fibonacci()}}
+{\footnotesize\ttfamily \label{fibonacci_8py_a5debf8a693c4140ce56aa04d4c7e8176} 
+fibonacci.\+fibonacci (\begin{DoxyParamCaption}\item[{}]{n}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Calcula el n-ésimo número de la secuencia de Fibonacci de forma recursiva.
+
+La secuencia de Fibonacci es una serie de números donde cada número es la suma de los dos anteriores.
+Esta implementación utiliza recursión para calcular el valor.
+
+@param n El índice del número en la secuencia de Fibonacci (debe ser un entero no negativo).
+@return El n-ésimo número en la secuencia de Fibonacci.
+
+@note Esta implementación es simple pero ineficiente para valores grandes de `n` debido a la recursión múltiple.
+Para valores grandes, se recomienda usar una implementación iterativa o con memoización.
+
+@code
+# Ejemplo de uso:
+for i in range(25):
+    print(fibonacci(i), end=" ")
+# Salida: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368
+@endcode
+\end{DoxyVerb}
+ 
